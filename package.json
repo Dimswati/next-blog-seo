@@ -11,31 +11,31 @@
   "dependencies": {
     "@dotlottie/react-player": "^1.2.1",
     "@supabase/auth-helpers-nextjs": "^0.7.4",
-    "@tailwindcss/forms": "^0.5.5",
-    "@tailwindcss/typography": "^0.5.9",
     "contentlayer": "^0.3.4",
     "date-fns": "^2.30.0",
     "github-slugger": "^2.0.0",
+    "next": "^13.5.4",
     "next-contentlayer": "^0.3.4",
     "next-sitemap": "^4.2.2",
     "postcss": "8.4.28",
-    "react-hook-form": "^7.45.4",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.47.0",
     "reading-time": "^1.5.0",
     "rehype-autolink-headings": "^6.1.1",
     "rehype-pretty-code": "^0.10.0",
     "rehype-slug": "^5.1.0",
     "remark-gfm": "^3.0.1",
     "shiki": "^0.14.3",
-    "tailwindcss": "3.3.3",
-    "react": "latest",
-    "react-dom": "latest",
-    "next": "latest"
+    "tailwindcss": "3.3.3"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
   }
 }

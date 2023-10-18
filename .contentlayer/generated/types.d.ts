@@ -13,7 +13,7 @@ export type Blog = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Blog'
-  title?: string | undefined
+  title: string
   publishedAt: IsoDateTimeString
   updatedAt: IsoDateTimeString
   description: string
@@ -21,9 +21,11 @@ export type Blog = {
   isPublished: boolean
   author: string
   tags?: string[] | undefined
-  /** Markdown file body */
-  body: Markdown
+  /** MDX file body */
+  body: MDX
   url: string
+  readingTime: json
+  toc: json
 }  
 
 /** Nested types */

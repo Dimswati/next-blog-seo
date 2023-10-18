@@ -3,10 +3,11 @@ import './globals.css'
 import { Inter, Manrope } from 'next/font/google'
 
 import Header from '@/src/components/Header'
+import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'], display: 'swap', variable: '--font-in' })
 
-const manrope = Manrope({ subsets: ['latin'], display: 'swap', variable: '--font-mr' }) 
+const manrope = Manrope({ subsets: ['latin'], display: 'swap', variable: '--font-mr' })
 
 export const metadata = {
   title: 'Create Next App',
@@ -16,10 +17,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body 
+      <body
         className={cx(inter.variable, manrope.variable, 'font-mr bg-light dark:bg-black')}>
-        <Header/>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
